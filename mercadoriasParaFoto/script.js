@@ -15,7 +15,6 @@ document.getElementById("arquivoCsv").addEventListener("change", function (e) {
       // pode ser , ou ;.
       let colunas = linhas[i].split(";");
 
-      //Pegando o Obj
       bancoDeDados.push({
         codigo: colunas[0].trim(),
         nome: colunas[1].trim(),
